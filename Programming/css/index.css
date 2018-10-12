@@ -1,0 +1,13 @@
+.content {
+    text-align: center;
+}
+
+.logo {
+    margin-top: 5vh;
+    width: 35%;
+}
+
+.image {
+    width: 35%;
+    border-radius: 5%;
+}

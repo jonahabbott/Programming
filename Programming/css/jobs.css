@@ -1,0 +1,45 @@
+.content {
+    display: grid;
+    grid-template-rows: repeat(14, 1fr);
+    grid-template-columns: 1fr;
+
+    height: 80vh;
+    width: 100vw;
+    text-align: center;
+}
+
+span {
+    font-size: 1.2rem;
+}
+
+.space {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.space span, .space p
+{
+    text-align: right;
+    margin-right: 25px;
+}
+
+input {
+    width: 350px;
+    height: 25px;
+}
+
+.available input {
+    width: 25px;
+}
+
+textarea {
+    width: 350px;
+    height: 50px;
+}
+
+.submit button {
+    width: 250px;
+    height: 35px;
+    margin-top: 30px;
+}

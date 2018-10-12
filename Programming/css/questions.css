@@ -1,0 +1,31 @@
+.content {
+    height: 94vh;
+
+    text-align: center;
+}
+
+.question {
+    padding-top: 50px;
+    width: 550px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.question span {
+    margin-left: 10px;
+    color: seagreen;
+    cursor: pointer;
+}
+
+#q1a {
+    display: none;
+}
+
+#q1b {
+    display: none;
+}
+
+#q2 {
+    display: none;
+}
